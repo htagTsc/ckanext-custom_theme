@@ -1,0 +1,21 @@
+<footer class="site-footer">
+  <div class="container">
+  {% block footer_content %}
+    <div class="row">
+        <div>
+
+            
+            <a class="footer-float-right" href="{{ h.url_for(controller='ckanext.pages.controller:PagesController', action='pages_show', page='/privacy') }}">{{ _('Privacy Policy') }}</a>
+            <a class="footer-float-right" href="{{ h.url_for(controller='ckanext.pages.controller:PagesController', action='pages_show', page='/licenses') }}">{{ _('Licenses and Terms of Use') }}</a>
+            <a class="footer-float-right" href="{{ h.url_for(controller='ckanext.pages.controller:PagesController', action='pages_show', page='/impressum') }}">{{ _('Impressum') }}</a>
+            <a class="footer-float-right" href="{{ h.url_for(controller='ckanext.pages.controller:PagesController', action='pages_show', page='/acessibility') }}">{{ _('Barrierefreiheit') }}</a>
+        </div>
+    </div class="row">
+  {% endblock %}
+  </div>
+{% block footer_debug %}
+    {% if g.debug %}
+      {% include 'snippets/debug.html' %}
+    {% endif %}
+{% endblock %}
+</footer>

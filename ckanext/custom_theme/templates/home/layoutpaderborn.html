@@ -1,0 +1,55 @@
+{% resource 'custom_theme/custom_theme.css' %}
+<div role="main" class="hero" id="maincontent">
+  <div class="container">
+    
+
+    <div id=groups class="row">
+      <div class="col-md-12">
+        {% block group_list %}
+        {% snippet "group/snippets/group_list.html", groups=h.custom_theme_groups() %}
+        {% endblock %}
+      </div>
+    </div>
+    
+    <div class="row recent-datasets" data-module="recent-datasets-carousel">
+      <div class="col-md-12">
+        {% block popular_packages %}
+          {% resource 'custom_theme/recent_datasets_carousel.js' %}
+          {% set packages=h.custom_theme_recent_datasets(6) %}
+          {% set truncate = truncate or 120 %}
+          {% set truncate_title = truncate_title or 40 %}
+          
+         {% if packages %}
+         <div class="media-grid">           
+          <div class="col-md-1">
+            <div class="carousel-navigation-icon">
+              <a class="fa fa-angle-left" href="#recent-datasets-carousel" data-slide="prev"></a>
+           </div>
+          </div>
+          <div id="recent-datasets-carousel" class="col-md-10 carousel slide">
+            <div class="carousel-inner">              
+              {% for package in packages %}
+              {% set full_class = item_class or 'module module-item' %}
+              <div class="item {% if loop.index0 == 0 %}active{% endif %}">
+                {% snippet 'snippets/package_item.html', package=package, item_class=full_class, hide_resources=hide_resources, banner=banner, truncate=truncate, truncate_title=truncate_title %}
+              </div>              
+              {% endfor %}              
+            </div>                                               
+          </div>  
+
+          <ol class="carousel-indicators recent-datasets">
+            {% for p in packages %}
+              <li data-target='#recent-datasets-carousel' data-slide-to='{{loop.index0}}' class="{% if loop.index0 == 0 %}active{% endif %}" ></li>
+            {% endfor %}
+          </ol>                          
+          <div class="col-md-1">
+            <div class="carousel-navigation-icon">
+            <a class="fa fa-angle-right" href="#recent-datasets-carousel" data-slide="next"></a>
+          </div>          
+        </div>
+         {% endif %}
+        {% endblock %}        
+      </div>
+    </div>
+  </div>
+</div>

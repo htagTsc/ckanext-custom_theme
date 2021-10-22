@@ -1,1 +1,0 @@
-# ckanext-custom_theme

@@ -1,0 +1,53 @@
+.custom-header .background-img {
+    width: 100%;
+    z-index: -1;
+}
+
+.module-search {
+    margin-top: -50px;
+}
+
+ul .list-horizontal{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer-float-right{
+    float:right
+}
+
+a.footer-float-right{
+    display: inline-block;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.search-form{
+    margin-bottom: 0;
+}
+
+.media-image{
+   height: 200px;
+}
+
+.media-item{
+    min-width: 220px;
+}
+
+.carousel-navigation-icon{
+    font-size: 120px;
+}
+
+.carousel-navigation-icon a{
+    text-decoration: none;
+}
+
+.recent-datasets .carousel-indicators li{
+    border-color: #005d7a;
+}
+
+.recent-datasets .carousel-indicators .active{
+    background-color: #005d7a;
+}

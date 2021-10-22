@@ -1,0 +1,158 @@
+# German translations for ckanext-custom_theme.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the
+# ckanext-custom_theme
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-custom_theme 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-09-08 07:51+0000\n"
+"PO-Revision-Date: 2020-04-30 11:57+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ckanext/custom_theme/templates/footer.html:11
+msgid "Privacy Policy"
+msgstr "Datenschutzhinweise"
+
+#: ckanext/custom_theme/templates/footer.html:12
+msgid "Licenses and Terms of Use"
+msgstr "Nutzungsbedingungen"
+
+#: ckanext/custom_theme/templates/footer.html:13
+msgid "Impressum"
+msgstr "Impressum"
+
+#: ckanext/custom_theme/templates/header.html:3
+msgid "Blog"
+msgstr "Blog"
+
+#: ckanext/custom_theme/templates/header.html:4
+msgid "Datasets"
+msgstr "Datensätze"
+
+#: ckanext/custom_theme/templates/header.html:5
+msgid "Data Sources"
+msgstr "Datenquellen"
+
+#: ckanext/custom_theme/templates/header.html:6
+msgid "Apps"
+msgstr "Apps"
+
+#: ckanext/custom_theme/templates/header.html:7
+msgid "Data Requests"
+msgstr "Datensatz anfragen"
+
+#: ckanext/custom_theme/templates/header.html:8
+msgid "Contact"
+msgstr "Kontakt"
+
+#: ckanext/custom_theme/templates/header.html:12
+msgid "Search Datasets"
+msgstr "Suche Datensätze"
+
+#: ckanext/custom_theme/templates/header.html:13
+#: ckanext/custom_theme/templates/home/snippets/search.html:11
+msgid "Search"
+msgstr "Suche"
+
+#: ckanext/custom_theme/templates/admin/config.html:9
+#: ckanext/custom_theme/templates/admin/config.html:16
+msgid "Open Data Cockpit administrators"
+msgstr ""
+
+#: ckanext/custom_theme/templates/admin/config.html:16
+msgid ""
+"The list of usernames of the Open Data Cockpit administrators. (Space "
+"seperated)"
+msgstr ""
+
+#: ckanext/custom_theme/templates/home/snippets/cookie_consent_banner.html:6
+msgid "Cookies are used on this site to improve the usability of this site."
+msgstr ""
+"Auf dieser Seite werden Cookies verwendet, um für Sie die "
+"Benutzerfreundlichkeit der Webseite zu verbessern."
+
+#: ckanext/custom_theme/templates/home/snippets/cookie_consent_banner.html:7
+msgid ""
+"By clicking the Accept button, you agree that we will do so. You can find"
+" out which essential cookies we use for the operation of the site in the privacy policy."
+msgstr ""
+"Mit dem Anklicken der Schältfläche 'Akzeptieren' erklären Sie sich damit"
+" einverständen, dass wir dies tun. Welche essentiellen Cookies wir für "
+"den Betrieb dieser Seite verwenden, erfahren sie in den Datenschutzhinweisen."
+
+#: ckanext/custom_theme/templates/home/snippets/cookie_consent_banner.html:9
+msgid "Accept"
+msgstr "Akzeptieren"
+
+#: ckanext/custom_theme/templates/home/snippets/cookie_consent_banner.html:10
+msgid "Decline"
+msgstr "Nein, danke"
+
+#: ckanext/custom_theme/templates/home/snippets/search.html:2
+msgid "E.g. environment"
+msgstr "Z.B. Umgebung"
+
+#: ckanext/custom_theme/templates/home/snippets/search.html:6
+msgid "Search data"
+msgstr "Daten suchen"
+
+#: ckanext/custom_theme/templates/home/snippets/search.html:8
+msgid "Search datasets"
+msgstr "Suche Datensätze"
+
+#: ckanext/custom_theme/templates/package/read_base.html:14
+msgid "Manage"
+msgstr ""
+
+#: ckanext/custom_theme/templates/package/read_base.html:19
+#, fuzzy
+msgid "Dataset"
+msgstr "Datensätze"
+
+#: ckanext/custom_theme/templates/package/read_base.html:20
+msgid "Groups"
+msgstr ""
+
+#: ckanext/custom_theme/templates/package/read_base.html:21
+msgid "Activity Stream"
+msgstr ""
+
+#: ckanext/custom_theme/templates/package/read_base.html:32
+#, python-format
+msgid ""
+"This is an old revision of this dataset, as edited at %(timestamp)s. It "
+"may differ significantly from the <a href=\"%(url)s\">current "
+"revision</a>."
+msgstr ""
+
+#: ckanext/custom_theme/templates/snippets/recent_package_item.html:31
+msgid "Private"
+msgstr ""
+
+#: ckanext/custom_theme/templates/snippets/recent_package_item.html:40
+msgid "Draft"
+msgstr ""
+
+#: ckanext/custom_theme/templates/snippets/recent_package_item.html:42
+msgid "Deleted"
+msgstr ""
+
+#: ckanext/custom_theme/templates/snippets/recent_package_item.html:50
+msgid "Popular"
+msgstr ""
+
+#: ckanext/custom_theme/templates/snippets/recent_package_item.html:57
+msgid "This dataset has no description"
+msgstr ""
+

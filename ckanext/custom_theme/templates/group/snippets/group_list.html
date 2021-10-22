@@ -1,0 +1,9 @@
+{% ckan_extends %}
+
+{% block group_list_inner %}
+    {% if groups %}
+        {% for group in groups %}
+            {% snippet "group/snippets/group_item.html", group=group, position=loop.index %}
+        {% endfor %}
+    {% endif %}
+{% endblock %}

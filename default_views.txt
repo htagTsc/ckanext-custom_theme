@@ -1,0 +1,4 @@
+recline_grid_view
+recline_graph_view
+recline_map_view
+webpage_view
