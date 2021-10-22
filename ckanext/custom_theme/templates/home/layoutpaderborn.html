@@ -1,8 +1,12 @@
 {% resource 'custom_theme/custom_theme.css' %}
 <div role="main" class="hero" id="maincontent">
   <div class="container">
-    
-
+    <div class="row custom-header">
+      <img class="img-fluid background-img" src="/cover_picture_paderborn_cropped.jpg">
+      <div class="col-md-12">
+        {% snippet 'home/snippets/search.html' %}
+      </div>
+    </div>
     <div id=groups class="row">
       <div class="col-md-12">
         {% block group_list %}
