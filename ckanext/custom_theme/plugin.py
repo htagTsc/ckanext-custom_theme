@@ -32,14 +32,6 @@ def recent_datasets(count=None):
 
     return datasets['results']
 
-def cookies_accepted():
-    value = request.cookies.get('cookie_consent')
-    return value == 'true'
-
-def cookies_asked():
-    value = request.cookies.get('cookie_consent')
-    return value is not None
-
 class Custom_ThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
     plugins.implements(plugins.IConfigurer)
     plugins.implements(plugins.ITemplateHelpers)
@@ -59,8 +51,6 @@ class Custom_ThemePlugin(plugins.SingletonPlugin, DefaultTranslation):
             'custom_theme_tags_and_counts': tags_and_counts,
             'custom_theme_groups': all_groups,
             'custom_theme_recent_datasets': recent_datasets,
-            'custom_theme_cookies_check': cookies_accepted,
-            'custom_theme_cookies_asked': cookies_asked
         }
 
     
