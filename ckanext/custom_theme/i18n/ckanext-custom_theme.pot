@@ -63,6 +63,35 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
+#: ckanext/custom_theme/templates/admin/config.html:9
+#: ckanext/custom_theme/templates/admin/config.html:16
+msgid "Open Data Cockpit administrators"
+msgstr ""
+
+#: ckanext/custom_theme/templates/admin/config.html:16
+msgid ""
+"The list of usernames of the Open Data Cockpit administrators. (Space "
+"seperated)"
+msgstr ""
+
+#: ckanext/custom_theme/templates/home/snippets/cookie_consent_banner.html:6
+msgid "Cookies are used on this site to improve the usability of this site."
+msgstr ""
+
+#: ckanext/custom_theme/templates/home/snippets/cookie_consent_banner.html:7
+msgid ""
+"By clicking the Accept button, you agree that we will do so. You can find"
+" out which essential cookies we use for the operation of the site in the privacy policy."
+msgstr ""
+
+#: ckanext/custom_theme/templates/home/snippets/cookie_consent_banner.html:9
+msgid "Accept"
+msgstr ""
+
+#: ckanext/custom_theme/templates/home/snippets/cookie_consent_banner.html:10
+msgid "Decline"
+msgstr ""
+
 #: ckanext/custom_theme/templates/home/snippets/search.html:2
 msgid "E.g. environment"
 msgstr ""

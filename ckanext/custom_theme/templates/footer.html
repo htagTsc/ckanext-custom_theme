@@ -3,6 +3,8 @@
   {% block footer_content %}
     <div class="row">
         <div>
+
+            
             <a class="footer-float-right" href="{{ h.url_for(controller='ckanext.pages.controller:PagesController', action='pages_show', page='/privacy') }}">{{ _('Privacy Policy') }}</a>
             <a class="footer-float-right" href="{{ h.url_for(controller='ckanext.pages.controller:PagesController', action='pages_show', page='/licenses') }}">{{ _('Licenses and Terms of Use') }}</a>
             <a class="footer-float-right" href="{{ h.url_for(controller='ckanext.pages.controller:PagesController', action='pages_show', page='/impressum') }}">{{ _('Impressum') }}</a>
